@@ -5,13 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <title>Platzi Day</title>
 </head>
 <body>
     <header>
         <nav>
             <figure class="logo">
-                <img src="" alt="">
+                <img src="./assets/logo.png" width="120px" alt="">
             </figure>
             <p>Inicio</p>
             <p>PLanes</p>
@@ -21,16 +24,16 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="section-one">
             <div id="left-section">
                 <h1>Platzi Day</h1>
-                <h4>18,19 y 20 de Marzo</h4>
+                <h4 class="dates">18,19 y 20 de Marzo</h4>
                 <p>Acceso sin costo a todos los cursos de Platzi durante 72 horas</p>
                 <input type="text" name="" id="" value="https://platzi.com/l/day-1036451/">
                 <button>Copiar</button>
             </div>
-            <div id="right-section">
-                <img src="" alt="">
+            <;div id="right-section">
+                <img src="./assets/hero.png" alt="">
             </div>
         </section>
         <section>
@@ -42,29 +45,33 @@
             </div>
             <div class="second-section">
                 <h2>Subscripciones con las que cuenta Platzi</h2>
-                <div>
-                    <h4>Basic</h4>
-                    <p>1 estudiante</p>
-                </div>
-                <div>
-                    <h4>Expert</h4>
-                    <p>1 estudiante</p>
-                </div>
-                <div>
-                    <h4>Expert Duo</h4>
-                    <p>2 estudiantes</p>
+                <div class="card-section">
+                    <div class="card">
+                        <h4>Basic</h4>
+                        <p>1 estudiante</p>
+                    </div>
+                    <div class="card">
+                        <h4>Expert</h4>
+                        <p>1 estudiante</p>
+                    </div>
+                    <div class="card">
+                        <h4>Expert Duo</h4>
+                        <p>2 estudiantes</p>
+                    </div>
                 </div>
             </div>
             <div class="third-section">
                 <h2>Encontraras cursos de:</h2>
-                <div>
-                    <h4>Desarrollo de Ingenierias</h4>
-                </div>
-                <div>
-                    <h4>Marketing Digital</h4>
-                </div>
-                <div>
-                    <h4>Cursos de Ingles</h4>
+                <div class="course-section">
+                    <div class="card-courses" id="green">
+                        <h4>Desarrollo de Ingenierias</h4>
+                    </div>
+                    <div class="card-courses" id="blue">
+                        <h4>Marketing Digital</h4>
+                    </div>
+                    <div class="card-courses" id="pink">
+                        <h4>Cursos de Ingles</h4>
+                    </div>
                 </div>
             </div>
         </section>
