@@ -18,3 +18,42 @@ nav {
     margin-left: -150px;
     margin-top: 10px;
 }
+
+main {
+    padding: 40px 120px 40px 120px;
+}
+
+.section-one {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.left-section {
+    width: 50%;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.dates {
+    color: #98CA3F;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+input {
+    width: 250px;
+    height: 20px;
+    border-color: whitesmoke;
+    box-shadow: none;
+    border-width: 0.5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+.right-section {
+    width: 50%;
+}
