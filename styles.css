@@ -68,4 +68,16 @@ button {
 
 .right-section {
     width: 50%;
+    padding-left: 400px; 
 }
+
+.second-section {
+    width: 80%;
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 15px;
+}
+
