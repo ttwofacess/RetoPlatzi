@@ -103,3 +103,19 @@ h4 {
     font-size: 1.2em;
 }
 
+.course-section {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-courses {
+    width: 300px;
+    height: 120px;
+    background-color: #0C1633;
+    color: white;
+    padding: 2px 20px 10px 20px;
+    border-radius: 10px;
+}
+
