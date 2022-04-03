@@ -112,10 +112,27 @@ h4 {
 
 .card-courses {
     width: 300px;
-    height: 120px;
+    height: 140px;
     background-color: #0C1633;
     color: white;
     padding: 2px 20px 10px 20px;
     border-radius: 10px;
 }
+
+.course-title {
+    font-size: 1.5em;
+}
+
+#green {
+    background-color: #98CA3F;
+}
+
+#blue {
+    background-color: #17A2F8;
+}
+
+#pink {
+    background-color: #ff8080;
+}
+
 
