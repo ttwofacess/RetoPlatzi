@@ -163,8 +163,10 @@ li {
 /* When the browser is at max 320px and less */
 @media screen and (max-width: 320px) {
     
-    body {
-        border: 1px red dashed;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
 
     nav {
@@ -187,6 +189,81 @@ li {
     }
 
     .logo img {
+        align-self: center;
         width: 200px;
     }
+
+    main {
+        padding: 0;
+    }
+
+    main .section-one {
+        flex-wrap: wrap;
+        max-width: 320px;
+        width: 100%;
+        /* border: blue 1px dashed; */
+    }
+
+    main .left-section {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        max-width: 320px;
+        width: 100%;
+        /* border: 1px yellow dashed; */
+    }
+
+    .left-section h1 {
+        font-size: calc(2.2rem + 0.5vw);
+    } 
+
+    .left-section h4 {
+        text-align: center;
+        font-size: calc(1.6rem + 0.5vw);
+    }
+
+    .left-section p {
+        text-align: center;
+        font-size: calc(1.4rem + 0.5vw);
+    }
+
+    .left-section input {
+        width: 260px;
+        max-width: 300px;
+        font-size: calc(1.0rem + 0.5vw);
+    }
+
+    .left-section button {
+        max-width: 160px;
+        width: 120px;
+        font-size: calc(1.0rem + 0.5vw);
+    }
+
+    .right-section {
+        display: flex;
+        justify-content: center;
+        max-width: 320px;
+        width: 100%;
+        padding: 1px;
+        /* border: 1px green dashed; */
+    }
+
+    .right-section img {
+        width: 300px;
+        /* height: 50px; */
+        padding: 1px;
+        margin: 1px;
+    }
+
+    .first-section h2 {
+            font-size: 0.5rem;
+        }
+
+    .first-section p {
+        font-size: 0.5rem;
+    }
+
+}
+
   }
