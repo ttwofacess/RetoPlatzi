@@ -257,11 +257,15 @@ li {
     }
 
     .first-section h2 {
-            font-size: 0.5rem;
+            font-size: calc(1.8rem + 0.5vw);
+            text-align: center;
+            /* border: 1px red dashed; */
         }
 
     .first-section p {
-        font-size: 0.5rem;
+        font-size: calc(1.0rem + 0.5vw);
+        text-align: center;
+        /* border: 1px green dashed; */
     }
 
 }
