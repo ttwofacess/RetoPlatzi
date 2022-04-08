@@ -17,6 +17,9 @@
     box-sizing: border-box;
 }
   
+html {
+    font-size: 62.5%;
+}
 
 body {
     padding: 0;
@@ -183,17 +186,16 @@ li {
 /* When the browser is at max 320px and less */
 @media screen and (max-width: 320px) {
     
-    * {
+    /* * { 
         margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }
+    } */
 
     nav {
       height: 130px;
       flex-wrap: wrap;
-      font-size: 0.9rem;
-      /* border: 1px red dashed; */
+      font-size: calc(1.4rem + 0.5vw);
     }
 
     .logo {
@@ -205,7 +207,6 @@ li {
         margin-right: 10px;
         margin-left: 10px;
         margin-top: 10px;
-        /* border: 1px red dashed;  */
     }
 
     .logo img {
@@ -221,7 +222,6 @@ li {
         flex-wrap: wrap;
         max-width: 320px;
         width: 100%;
-        /* border: blue 1px dashed; */
     }
 
     main .left-section {
@@ -231,33 +231,32 @@ li {
         align-items: center;
         max-width: 320px;
         width: 100%;
-        /* border: 1px yellow dashed; */
     }
 
     .left-section h1 {
-        font-size: calc(2.2rem + 0.5vw);
+        font-size: calc(3.6rem + 0.5vw);
     } 
 
     .left-section h4 {
         text-align: center;
-        font-size: calc(1.6rem + 0.5vw);
+        font-size: calc(1.8rem + 0.5vw);
     }
 
     .left-section p {
         text-align: center;
-        font-size: calc(1.4rem + 0.5vw);
+        font-size: calc(1.6rem + 0.5vw);
     }
 
     .left-section input {
-        width: 260px;
+        width: 230px;
         max-width: 300px;
-        font-size: calc(1.0rem + 0.5vw);
+        font-size: calc(1.4rem + 0.5vw);
     }
 
     .left-section button {
         max-width: 160px;
         width: 120px;
-        font-size: calc(1.0rem + 0.5vw);
+        font-size: calc(1.6rem + 0.5vw);
     }
 
     .right-section {
@@ -266,7 +265,6 @@ li {
         max-width: 320px;
         width: 100%;
         padding: 1px;
-        /* border: 1px green dashed; */
     }
 
     .right-section img {
@@ -277,15 +275,13 @@ li {
     }
 
     .first-section h2 {
-            font-size: calc(1.8rem + 0.5vw);
+            font-size: calc(2.4rem + 0.5vw);
             text-align: center;
-            /* border: 1px red dashed; */
         }
 
     .first-section p {
-        font-size: calc(1.0rem + 0.5vw);
+        font-size: calc(1.6rem + 0.5vw);
         text-align: center;
-        /* border: 1px green dashed; */
     }
 
 }
